@@ -8,6 +8,7 @@
 		padding:8px;
 	background-repeat:repeat-x;
 }
+a{text-decoration:none !important;}
 #toffer{
 font-family:Arial, Helvetica, sans-serif;
 font-size:33px;
@@ -16,7 +17,35 @@ text-transform:uppercase;
 text-shadow:none;
 text-align:center;
 }
+#myIcon
+{
+	border-radius:5px;
+	background-color:#FFF;
+	padding:5px;
+	width:110px;
+	float:left;
+	margin-top:12px;
+}
+#offercontent{
+	background-image:url(images/offbg.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:320px;
+	height:140px;
+	padding:5px;
 
+	
+}
+#des
+{
+	color:#999;
+	font-size:12px;
+	font-weight:normal;
+	width:280px;
+	margin:10px;
+	
+	
+}
 </style>
 
 <meta charset="utf-8">
@@ -37,13 +66,29 @@ text-align:center;
     <a href="#" data-role="button" data-theme="a" data-inline="true">Today's Offer</a>
  <img src="images/everything.png" style="float:right; width:64px;padding-right:20px;" />
 </div>
-    
-
     <!--header-->
 	</div>
 	<div data-role="content">	
-	  <p id="toffer"> Today's Offer</p>
-    		
+	  <p id="toffer"> Today's Offer</p><br />
+    	
+        <a href="#page2">
+        
+        
+        <div>
+       
+        <img src="images/apple.png" id="myIcon" />   
+       		 <div id="offercontent" style="display:block; float:left;">
+        		<h3 style="color:#000; margin:10px;">FRESH APPLE</h3>
+                <p id="des">The background image can be placed within the content-box, padding-box, or border-box are</p>
+                
+       		 </div>
+        </div>
+        </a>
+        
+     
+            
+            
+            
 	</div>
 	<!--<div data-role="footer" style="positon:absolute;bottom:0px;">
 		<h4>Page Footer</h4>
