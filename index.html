@@ -4,8 +4,8 @@
 <style type="text/css">
 
 #myHeader{
-	background-image:url(images/top.png);//,url(images/bg.png);
-		padding:8px;
+	background-image:url(images/top.png);
+		padding:8px 0px 8px 0px;
 	background-repeat:repeat-x;
 }
 a{text-decoration:none !important;}
@@ -21,31 +21,13 @@ text-align:center;
 {
 	border-radius:5px;
 	background-color:#FFF;
-	padding:5px;
+	//padding:5px;
 	width:110px;
 	float:left;
 	margin-top:12px;
+	
 }
-#offercontent{
-	background-image:url(images/offbg.png);
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-	width:320px;
-	height:140px;
-	padding:5px;
 
-	
-}
-#des
-{
-	color:#999;
-	font-size:12px;
-	font-weight:normal;
-	width:280px;
-	margin:10px;
-	
-	
-}
 </style>
 
 <meta charset="utf-8">
@@ -64,38 +46,111 @@ text-align:center;
   <div data-role="controlgroup" data-type="horizontal">
     <a href="#" data-role="button"  data-icon="bars"  data-theme="a" data-iconpos="left" data-inline="true">Menu</a>
     <a href="#" data-role="button" data-theme="a" data-inline="true">Today's Offer</a>
- <img src="images/everything.png" style="float:right; width:64px;padding-right:20px;" />
+ <img src="images/everything.png" style="float:right; width:64px;padding-right:10px;" />
 </div>
     <!--header-->
 	</div>
-	<div data-role="content">	
-	  <p id="toffer"> Today's Offer</p><br />
-    	
-        <a href="#page2">
-        
-        
-        <div>
-       
-        <img src="images/apple.png" id="myIcon" />   
-       		 <div id="offercontent" style="display:block; float:left;">
-        		<h3 style="color:#000; margin:10px;">FRESH APPLE</h3>
-                <p id="des">The background image can be placed within the content-box, padding-box, or border-box are</p>
-                
-       		 </div>
-        </div>
-        </a>
-        
-     
-            
-            
-            
-	</div>
-	<!--<div data-role="footer" style="positon:absolute;bottom:0px;">
-		<h4>Page Footer</h4>
+	<div data-role="content">
+	<p id="toffer"> Today's Offer</p><br >
 	</div>
     
-    -->
+<div class="list_style">
+<ul >
+<li><a href="#page2"><div class="list_box a_left b_small box_radius_left"><img src="apple.jpg"/></div>
+<div class="list_box a_left b_big box_radius b_bg_y">
+<div class="list_body">
+<h2>FRESH APPLE</h2>
+<p>Virgin coconut oil is extracted from fresh coconut flesh without any chemical process or ingredients. </p>
+<img class="locimg" src="loc.png" style="float:left;"/>
+<span> <p id="locationtext">CALICUT, Monday 27-06-1993</p></span>
+<hr />
+<div class="clear"></div>
+<span class="off_rupee">Rs.</span><span class="off_price">25</span>
+<span class="rupee">Rs.</span><span class="price">30</span>
 </div>
+</div>
+</a>
+</li>
+
+
+<li><a><div class="list_box a_left b_small box_radius_left"><img src="coke.png"/></div>
+<div class="list_box a_left b_big box_radius b_bg_y">
+<div class="list_body">
+<h2>COCACOLA</h2>
+<p>Virgin coconut oil is extracted from fresh coconut flesh without any chemical process or ingredients. </p>
+<img class="locimg" src="loc.png" style="float:left;"/>
+<span> <p id="locationtext">CALICUT, Monday 27-06-1993</p></span>
+<hr />
+<div class="clear"></div>
+<span class="off_rupee">Rs.</span><span class="off_price">5</span>
+<span class="rupee">Rs.</span><span class="price">35</span>
+</div>
+</div>
+</a>
+</li>
+
+
+<li><a><div class="list_box a_left b_small box_radius_left"><img src="oreo.jpg"/></div>
+<div class="list_box a_left b_big box_radius b_bg_y">
+<div class="list_body">
+<h2>OREO</h2>
+<p>Virgin coconut oil is extracted from fresh coconut flesh without any chemical process or ingredients. </p>
+<img class="locimg" src="loc.png" style="float:left;"/>
+<span> <p id="locationtext">CALICUT, Monday 27-06-1993</p></span>
+<hr />
+<div class="clear"></div>
+<span class="off_rupee">Rs.</span><span class="off_price">10.99</span>
+<span class="rupee">Rs.</span><span class="price">11</span>
+</div>
+</div>
+</a>
+</li>
+
+
+<li><a><div class="list_box a_left b_small box_radius_left"><img src="hp.jpg"/></div>
+<div class="list_box a_left b_big box_radius b_bg_y">
+<div class="list_body">
+<h2>HARPIC</h2>
+<p>Virgin coconut oil is extracted from fresh coconut flesh without any chemical process or ingredients. </p>
+<img class="locimg" src="loc.png" style="float:left;"/>
+<span> <p id="locationtext">CALICUT, Monday 27-06-1993</p></span>
+<hr />
+<div class="clear"></div>
+<span class="off_rupee">Rs.</span><span class="off_price">100</span>
+<span class="rupee">Rs.</span><span class="price">110</span>
+</div>
+</div>
+</a>
+</li>
+
+<li><a><div class="list_box a_left b_small box_radius_left"><img src="dr.gif"/></div>
+<div class="list_box a_left b_big box_radius b_bg_y">
+<div class="list_body">
+<h2>DAIRY MILK SILK</h2>
+<p>Virgin coconut oil is extracted from fresh coconut flesh without any chemical process or ingredients. </p>
+<img class="locimg" src="loc.png" style="float:left;"/>
+<span> <p id="locationtext">CALICUT, Monday 27-06-1993</p></span>
+<hr />
+<div class="clear"></div>
+<span class="off_rupee">Rs.</span><span class="off_price">39.99</span>
+<span class="rupee">Rs.</span><span class="price">50</span>
+</div>
+</div>
+</li>
+
+
+
+
+
+</ul>
+
+</div>
+
+
+
+
+
+
 
 <div data-role="page" id="page2">
 	<div data-role="header">
